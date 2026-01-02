@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Person Entry Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Person Entry Form</h2>
+
+        <div class="form-box">
+            <input id="name" type="text" placeholder="Enter Name">
+            <input id="age" type="number" placeholder="Enter Age">
+            <input id="mobile" type="number" placeholder="Enter Mobile Number">
+            <input id="city" type="text" placeholder="Enter City">
+            <button id="saveBtn">Save</button>
+        </div>
+
+        <h3>History</h3>
+        <table id="historyTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Mobile</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script type="module" src="./dist/app.js"></script>
+</body>
+</html>
